@@ -26,6 +26,14 @@
     transition: .5s ease;
 }
 
+.header .active {
+    color: #C7632D;
+}
+
+.header li{
+    text-decoration: none;
+}
+
 .about{
     text-align: center;
 }
