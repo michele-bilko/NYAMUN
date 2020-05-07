@@ -26,12 +26,37 @@
     transition: .5s ease;
 }
 
-.header .active {
-    color: #C7632D;
+.TOP{
+    background: #0C3464;
+    padding: 20px;
 }
 
-.header li{
+.TOP a{
+    padding: 6px 16px 6px 16px;
     text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    display: inline; 
+    background-color: #C7632D;
+    transition: 0.3s;
+}
+
+.TOP a:hover {
+    color: #C7632D;
+    background-color: white;
+    transition: .5s ease;
+}
+
+.TOP .active {
+    color: #C7632D;
+    background-color: white;
+}
+
+.TOP li{
+    text-decoration: none;
+    text-align: left;
+    display: inline;
 }
 
 .about{
@@ -64,6 +89,10 @@
 
 }
 
+h1{
+    font-size: 80px;
+}
+
 h2{
     font-size: 40px; 
     color: white;
@@ -94,6 +123,17 @@ p{
     color: white;
     padding: 6px 20px 20px 20px;
     font-size: 25px;
+}
+
+a{
+    color: #0C3464;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #C7632D;
+    transition: .5s ease;
 }
 
 #footer {
