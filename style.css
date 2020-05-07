@@ -40,6 +40,8 @@
     display: inline; 
     background-color: #C7632D;
     transition: 0.3s;
+    text-decoration: none;
+    text-align: left;
 }
 
 .TOP a:hover {
@@ -53,11 +55,6 @@
     background-color: white;
 }
 
-.TOP li{
-    text-decoration: none;
-    text-align: left;
-    display: inline;
-}
 
 .about{
     text-align: center;
